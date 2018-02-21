@@ -15,12 +15,5 @@ public static void main(String[] args) throws IOException {
 	output.append("\n"+number);
 	input.close();
 	output.close();	
-	try {
-		Scanner read=new Scanner(file);
-		int age=read.nextInt();
-		read.close();
-	}catch(FileNotFoundException ex) {
-		
-	}
 }
 }
