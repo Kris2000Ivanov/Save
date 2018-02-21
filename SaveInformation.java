@@ -19,7 +19,6 @@ public static void main(String[] args) throws IOException {
 		Scanner read=new Scanner(file);
 		int age=read.nextInt();
 		read.close();
-		System.out.println("The number is "+age);
 	}catch(FileNotFoundException ex) {
 		
 	}
