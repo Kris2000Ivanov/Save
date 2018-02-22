@@ -10,7 +10,7 @@ public class SaveInformation {
 public static void main(String[] args) throws IOException {
 	Scanner input=new Scanner(System.in);
 	String name=input.next();
-	File file=new File(name);
+	File file=new File("name.txt");
 	System.out.println("please input a number: ");
 	int number=input.nextInt();
 	FileWriter output = new FileWriter(file, true);
