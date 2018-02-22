@@ -3,7 +3,6 @@ import java.util.*;
 import java.io.*;
 public class FileReader {
 private Scanner x;
-String filePath;
 public void openFile() {
 	try {
 		x=new Scanner(new File("filePath"));
