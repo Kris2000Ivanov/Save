@@ -3,10 +3,10 @@ import java.util.*;
 import java.io.*;
 public class ReadFile {
 private Scanner x;
-
+String filePath;
 public void openFile() {
 	try {
-		x=new Scanner(new File("info.txt"));
+		x=new Scanner(new File("filePath"));
 	}
 	catch(Exception e) {
 System.out.println("Could not find file");		
