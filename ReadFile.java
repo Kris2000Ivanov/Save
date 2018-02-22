@@ -1,7 +1,7 @@
 package LetMeGiveItAnotherTry;
 import java.util.*;
 import java.io.*;
-public class ReadFile {
+public class FileReader {
 private Scanner x;
 String filePath;
 public void openFile() {
